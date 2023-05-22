@@ -5,13 +5,5 @@ export interface UserPayload {
   email: string;
   name: string;
   role: Role;
-  avatar: string;
-}
-
-export interface User {
-  id: string;
-}
-
-export interface User1 {
-  id: string;
+  photo: string;
 }
