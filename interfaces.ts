@@ -11,3 +11,7 @@ export interface UserPayload {
 export interface User {
   id: string;
 }
+
+export interface User1 {
+  id: string;
+}
