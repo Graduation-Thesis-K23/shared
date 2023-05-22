@@ -7,3 +7,7 @@ export interface UserPayload {
   role: Role;
   avatar: string;
 }
+
+export interface User {
+  id: string;
+}
