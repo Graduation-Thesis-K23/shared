@@ -32,8 +32,7 @@ export default {
   "footer.support_center": "Hỗ trợ khách hàng",
   "footer.subscribe": "Nhận thông báo",
   "footer.subscribeButton": "Đăng ký",
-  "footer.location":
-    "Địa chỉ: 19 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, Thành phố Hồ Chí Minh",
+  "footer.location": "Địa chỉ: 19 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, Thành phố Hồ Chí Minh",
   // categories
   "categories.header": "Danh mục",
   "categories.springRolls": "Chả cuốn",
@@ -89,8 +88,7 @@ export default {
   "settings.passwordErrorStrong":
     "Mật khẩu phải có ít nhất một chữ viết hoa, một chữ viết thường, một số và một ký tự đặc biệt",
   "settings.passwordErrorSame": "Mật khẩu mới không khớp",
-  "settings.passwordErrorSame1":
-    "Mật khẩu mới không được giống với mật khẩu hiện tại",
+  "settings.passwordErrorSame1": "Mật khẩu mới không được giống với mật khẩu hiện tại",
   "settings.showPassword": "Hiển thị mật khẩu",
   "settings.deleteButton": "Xoá",
   // login
@@ -134,8 +132,7 @@ export default {
   "username.minLength": "Tên người dùng tối thiểu 8 ký tự.",
   "username.maxLength": "Tên người dùng tối đa 32 ký tự.",
   "username.existed": "Tên người dùng đã tồn tại.",
-  "username.inValid":
-    "Tên người dùng bắt đầu bằng chữ và không có ký tự đặc biệt.",
+  "username.inValid": "Tên người dùng bắt đầu bằng chữ và không có ký tự đặc biệt.",
   "password.empty": "Mật khẩu không được để trống.",
   "password.minLength": "Mật khẩu tối thiểu 8 ký tự.",
   "password.maxLength": "Mật khẩu tối đa 32 ký tự.",
