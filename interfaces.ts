@@ -4,3 +4,10 @@ export interface UserPayload {
   name: string;
   photo: string;
 }
+
+export interface CategoryType {
+  id: number;
+  src: string;
+  textKey: string;
+  href: string;
+}
