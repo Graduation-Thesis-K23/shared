@@ -1,4 +1,4 @@
-import { USER_ROLE } from "../auth/constants";
+import { USER_ROLE } from "./constants";
 import { Role } from "./enums";
 
 export interface CategoryType {
