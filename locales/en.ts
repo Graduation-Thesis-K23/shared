@@ -96,6 +96,8 @@ export default {
     "New password should not be the same as your existing password",
   "settings.showPassword": "Show password",
   "settings.deleteButton": "Delete",
+  "settings.maintainFeature": "Maintaining Feature",
+  "settings.account": "Account",
   // login
   "login.title": "Welcome!",
   "login.or": "Or",
@@ -149,4 +151,19 @@ export default {
   "email.existed": "Email already exist.",
 
   "notFound.product": "Not found suitable product",
+
+  // account
+  "account.notEmpty": "Account information not empty",
+  "account.inValid": "Account information is phone number or email",
+  "account.enterCode": "Enter Verification Code",
+  "account.notify": "Your verification code is sent to",
+  "account.notReceive": "Did not receive the code?",
+  "account.resend": "Resend",
+  "account.confirm": "Confirm",
+  "account.phoneNotExist": "Phone number not exist.",
+  "account.emailNotExist": "Email not exist.",
+  "account.accountNotExist": "Account not exist.",
+  "account.otpInvalid": "Verification code invalid",
+  "account.otpExpiry": "Verification code expiry",
+  "account.sendPasswordToAccount": "Password sent to ",
 };

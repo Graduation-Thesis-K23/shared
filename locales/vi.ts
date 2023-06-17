@@ -93,6 +93,9 @@ export default {
     "Mật khẩu mới không được giống với mật khẩu hiện tại",
   "settings.showPassword": "Hiển thị mật khẩu",
   "settings.deleteButton": "Xoá",
+  "settings.maintainFeature": "Tính năng đang bảo trì",
+  "settings.account": "Tài khoản",
+
   // login
   "login.title": "Chào bạn!",
   "login.or": "Hoặc",
@@ -146,4 +149,19 @@ export default {
   "email.existed": "Email đã tồn tại.",
 
   "notFound.product": "Không tìm thấy sản phẩm phù hợp",
+
+  // account
+  "account.notEmpty": "Thông tin tài khoản không được để trống",
+  "account.inValid": "Thông tin tài khoản là email hoặc số điện thoại",
+  "account.enterCode": "Nhập mã xác nhận",
+  "account.notify": "Mã xác nhận của bạn đã được gửi đến",
+  "account.notReceive": "Bạn chưa nhận được mã?",
+  "account.resend": "Gửi lại",
+  "account.confirm": "Xác nhận",
+  "account.phoneNotExist": "Số điện thoại không tồn tại",
+  "account.emailNotExist": "Email không tồn tại",
+  "account.accountNotExist": "Tài khoản không tồn tại",
+  "account.otpInvalid": "Mã xác nhận không đúng",
+  "account.otpExpiry": "Mã xác nhận hết hạn",
+  "account.sendPasswordToAccount": "Mật khẩu đã được gửi đến ",
 };
