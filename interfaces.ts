@@ -18,6 +18,5 @@ export interface UserPayload {
 export interface EmployeePayload {
   phone: string;
   name: string;
-  photo?: string;
   role: Role;
 }
