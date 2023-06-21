@@ -32,7 +32,8 @@ export default {
   "footer.socialMedia.title": "Follow Us",
   "footer.subscribe": "Subscribe To Newsletter",
   "footer.subscribeButton": "Subscribe",
-  "footer.location": "Address: 19 Nguyen Huu Tho Street, Tan Phong Ward, District 7, Ho Chi Minh City",
+  "footer.location":
+    "Address: 19 Nguyen Huu Tho Street, Tan Phong Ward, District 7, Ho Chi Minh City",
   // categories
   "categories.header": "Categories",
   "categories.springRolls": "Spring Rolls",
@@ -84,12 +85,15 @@ export default {
   "settings.strongPassword": "Your password not strong",
   "settings.notifyPassword":
     "Your password must have least one uppercase character, one lowercase character, one special character, one number and the length in range from 8 to 20 characters.",
-  "settings.passwordErrorMinLength": "Password must have more than 8 characters",
-  "settings.passwordErrorMaxLength": "Password must have less than 20 characters",
+  "settings.passwordErrorMinLength":
+    "Password must have more than 8 characters",
+  "settings.passwordErrorMaxLength":
+    "Password must have less than 20 characters",
   "settings.passwordErrorStrong":
     "Password must have least one uppercase character, one lowercase character, one special character, one number",
   "settings.passwordErrorSame": "Password doesn't match",
-  "settings.passwordErrorSame1": "New password should not be the same as your existing password",
+  "settings.passwordErrorSame1":
+    "New password should not be the same as your existing password",
   "settings.showPassword": "Show password",
   "settings.deleteButton": "Delete",
   "settings.maintainFeature": "Maintaining Feature",
@@ -110,7 +114,8 @@ export default {
   "login.createPassword": "Password",
   "login.forgotTitle": "Reset Password",
   "login.forgotSend": "Send OTP",
-  "login.forgotDesc": "Please enter your account information to recover your password",
+  "login.forgotDesc":
+    "Please enter your account information to recover your password",
   // featured
   "products.header": "Top Products",
   "products.viewAll": "View All",
@@ -134,7 +139,8 @@ export default {
   "username.minLength": "Username minimum 8 characters.",
   "username.maxLength": "Username maximum 32 characters.",
   "username.existed": "Username already exist.",
-  "username.inValid": "Username must have first letter is character and not have special characters.",
+  "username.inValid":
+    "Username must have first letter is character and not have special characters.",
   "password.empty": "Password is not empty.",
   "password.minLength": "Password minimum 8 characters.",
   "password.maxLength": "Password maximum 32 characters.",
@@ -160,4 +166,7 @@ export default {
   "account.otpInvalid": "Verification code invalid",
   "account.otpExpiry": "Verification code expiry",
   "account.sendPasswordToAccount": "Password sent to ",
+  // slogan
+  "slogan.title":
+    "Chainmart: Reliable Shopping Destinations - The Companion for Everyone",
 };
