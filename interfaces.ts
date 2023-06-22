@@ -48,3 +48,22 @@ export interface FamiliarProduct
   > {
   create_at: string;
 }
+
+// branch.chainmart.site
+export interface EmployeeType {
+  id: string;
+  name: string;
+  phone: string;
+  createAt: string;
+  isActive: boolean;
+}
+
+export interface OrderType {
+  id: string;
+  status: string;
+}
+
+export interface BatchType {
+  id: string;
+  name: string;
+}
