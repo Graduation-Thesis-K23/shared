@@ -20,3 +20,17 @@ export interface EmployeePayload {
   name: string;
   role: Role;
 }
+
+export interface ProductListType {
+  id: string;
+  name: string;
+  price: number;
+  sale: number;
+  images: string;
+  created_at: string;
+  slug: string;
+  sold: number;
+  rating: number;
+  expiry_date: string;
+  isHot: boolean;
+}
