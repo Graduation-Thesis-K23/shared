@@ -26,7 +26,7 @@ export interface ProductListType {
   name: string;
   price: number;
   sale: number;
-  images: string;
+  images: string[];
   created_at: string;
   slug: string;
   sold: number;
@@ -35,6 +35,9 @@ export interface ProductListType {
   isHot: boolean;
 }
 
-export interface IProduct extends Omit<ProductListType, "images"> {
-  images: string[];
+export interface ProductType extends ProductListType {
+  description: string;
+  specifications: string;
+  category: string;
+  numberOfComments: number;
 }
