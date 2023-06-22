@@ -34,3 +34,7 @@ export interface ProductListType {
   expiry_date: string;
   isHot: boolean;
 }
+
+export interface IProduct extends Omit<ProductListType, "images"> {
+  images: string[];
+}
