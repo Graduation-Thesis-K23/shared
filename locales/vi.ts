@@ -13,6 +13,17 @@ export default {
   "header.topRight.logout": "Đăng xuất",
   "header.topRight.myAccount": "Tài khoản của tôi",
   "header.topRight.myOrders": "Đơn hàng của tôi",
+  //
+  "e-invoice": "Hóa đơn điện tử",
+  orderLookup: "Tra cứu đơn hàng",
+  aboutUs: "Về chúng tôi",
+  legalNotice: "Thông tin pháp lý",
+  termsAndCondition: "Điều khoản và điều kiện",
+  careers: "Tuyển dụng",
+  returnPolicy: "Chính sách đổi trả",
+  shippingPolicy: "Chính sách vận chuyển",
+  feedback: "Phản hồi",
+  faq: "Câu hỏi thường gặp",
   // cart
   "cart.viewCart": "Xem giỏ hàng",
   "cart.recentlyAdded": "Sản phẩm vừa thêm",
