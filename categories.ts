@@ -4,42 +4,42 @@
 export default [
   {
     id: 1,
-    textKey: "categories.springRolls",
+    textKey: "springRolls",
   },
   {
     id: 2,
-    textKey: "categories.toiletPaper",
+    textKey: "toiletPaper",
   },
   {
     id: 3,
-    textKey: "categories.cream",
+    textKey: "cream",
   },
   {
     id: 4,
-    textKey: "categories.noodles",
+    textKey: "noodles",
   },
   {
     id: 5,
-    textKey: "categories.washingPowder",
+    textKey: "washingPowder",
   },
   {
     id: 6,
-    textKey: "categories.fishSauce",
+    textKey: "fishSauce",
   },
   {
     id: 7,
-    textKey: "categories.softDrinks",
+    textKey: "softDrinks",
   },
   {
     id: 8,
-    textKey: "categories.vegetables",
+    textKey: "vegetables",
   },
   {
     id: 9,
-    textKey: "categories.milk",
+    textKey: "milk",
   },
   {
     id: 10,
-    textKey: "categories.pork",
+    textKey: "pork",
   },
 ];

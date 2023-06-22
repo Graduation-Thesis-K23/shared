@@ -46,16 +46,16 @@ export default {
     "Address: 19 Nguyen Huu Tho Street, Tan Phong Ward, District 7, Ho Chi Minh City",
   // categories
   "categories.header": "Categories",
-  "categories.springRolls": "Spring Rolls",
-  "categories.toiletPaper": "Toilet Paper",
-  "categories.cream": "Ice Cream",
-  "categories.noodles": "Noodles",
-  "categories.washingPowder": "Washing Powder",
-  "categories.fishSauce": "Fish Sauce",
-  "categories.softDrinks": "Soft Drinks",
-  "categories.vegetables": "Vegetables",
-  "categories.milk": "Milk",
-  "categories.pork": "Pork",
+  springRolls: "Spring Rolls",
+  toiletPaper: "Toilet Paper",
+  cream: "Ice Cream",
+  noodles: "Noodles",
+  washingPowder: "Washing Powder",
+  fishSauce: "Fish Sauce",
+  softDrinks: "Soft Drinks",
+  vegetables: "Vegetables",
+  milk: "Milk",
+  pork: "Pork",
   // settings
   "settings.profile": "Profile",
   "settings.address": "Address",
@@ -179,4 +179,7 @@ export default {
   // slogan
   "slogan.title":
     "Chainmart: Reliable Shopping Destinations - The Companion for Everyone",
+
+  // search
+  "search.title": "Search",
 };

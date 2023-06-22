@@ -47,16 +47,16 @@ export default {
     "Địa chỉ: 19 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, Thành phố Hồ Chí Minh",
   // categories
   "categories.header": "Danh mục",
-  "categories.springRolls": "Chả cuốn",
-  "categories.toiletPaper": "Giấy vệ sinh",
-  "categories.cream": "Kem",
-  "categories.noodles": "Mì Gói",
-  "categories.washingPowder": "Nước giặt",
-  "categories.fishSauce": "Nước mắm",
-  "categories.softDrinks": "Nước ngọt",
-  "categories.vegetables": "Rau củ",
-  "categories.milk": "Sữa",
-  "categories.pork": "Thịt heo",
+  springRolls: "Chả cuốn",
+  toiletPaper: "Giấy vệ sinh",
+  cream: "Kem",
+  noodles: "Mì Gói",
+  washingPowder: "Nước giặt",
+  fishSauce: "Nước mắm",
+  softDrinks: "Nước ngọt",
+  vegetables: "Rau củ",
+  milk: "Sữa",
+  pork: "Thịt heo",
   // settings
   "settings.profile": "Hồ sơ",
   "settings.address": "Địa chỉ",
@@ -177,4 +177,6 @@ export default {
   "account.sendPasswordToAccount": "Mật khẩu đã được gửi đến ",
   // slogan
   "slogan.title": "Chainmart: Nơi mua sắm đáng tin cậy – Bạn của mọi nhà",
+  // search
+  "search.title": "Tìm kiếm",
 };
