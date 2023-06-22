@@ -31,7 +31,6 @@ export interface ProductListType {
   slug: string;
   sold: number;
   rating: number;
-  expiry_date: string;
   isHot: boolean;
 }
 
@@ -40,4 +39,12 @@ export interface ProductType extends ProductListType {
   specifications: string;
   category: string;
   numberOfComments: number;
+}
+
+export interface FamiliarProduct
+  extends Pick<
+    ProductType,
+    "id" | "name" | "price" | "images" | "sale" | "slug"
+  > {
+  create_at: string;
 }
