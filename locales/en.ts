@@ -182,4 +182,15 @@ export default {
 
   // search
   "search.title": "Search",
+  "search.filter": "Search filter",
+  "search.byCategory": "By category",
+  "search.byPrice": "Price range",
+  "search.apply": "Apply",
+  "search.sortBy": "Sort by",
+  "search.latest": "Latest",
+  "search.topSales": "Top sales",
+  "search.price": "Price",
+  "search.priceLowToHigh": "Price: Low to High",
+  "search.priceHighToLow": "Price: High to Low",
+  "search.reload": "Reload",
 };

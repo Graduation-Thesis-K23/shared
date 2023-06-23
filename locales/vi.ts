@@ -179,4 +179,15 @@ export default {
   "slogan.title": "Chainmart: Nơi mua sắm đáng tin cậy – Bạn của mọi nhà",
   // search
   "search.title": "Tìm kiếm",
+  "search.filter": "Bộ lọc tìm kiếm",
+  "search.byCategory": "Theo danh mục",
+  "search.byPrice": "Theo giá",
+  "search.apply": "Áp dụng",
+  "search.sortBy": "Sắp xếp theo",
+  "search.latest": "Mới nhất",
+  "search.topSales": "Bán chạy",
+  "search.price": "Giá",
+  "search.priceLowToHigh": "Giá: thấp đến cao",
+  "search.priceHighToLow": "Giá: cao đến thấp",
+  "search.reload": "Tải lại",
 };
