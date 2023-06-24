@@ -5,3 +5,15 @@ export enum Role {
   Shipper = "SHIPPER",
   Branch = "BRANCH",
 }
+
+export enum OrderStatus {
+  Processing = "PROCESSING",
+  Approved = "APPROVED",
+  Completed = "COMPLETED",
+  Shipping = "SHIPPING",
+}
+
+export enum Payment {
+  Cash = "CASH",
+  Banking = "BANKING",
+}
