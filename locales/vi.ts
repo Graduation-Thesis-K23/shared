@@ -190,4 +190,8 @@ export default {
   "search.priceLowToHigh": "Giá: thấp đến cao",
   "search.priceHighToLow": "Giá: cao đến thấp",
   "search.reload": "Tải lại",
+  "message.placeholder": "Bạn cần giúp đỡ?",
+  "message.lookupOrder": "Tra cứu đơn hàng",
+  "message.buyingGuide": "Hướng dẫn mua hàng",
+  "message.seekingProduct": "Tìm kiếm sản phẩm",
 };

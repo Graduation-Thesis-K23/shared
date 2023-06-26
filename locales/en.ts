@@ -193,4 +193,8 @@ export default {
   "search.priceLowToHigh": "Price: Low to High",
   "search.priceHighToLow": "Price: High to Low",
   "search.reload": "Reload",
+  "message.placeholder": "Do you need help?",
+  "message.lookupOrder": "Lookup Order",
+  "message.buyingGuide": "Buying Guide",
+  "message.seekingProduct": "Seeking Product",
 };
