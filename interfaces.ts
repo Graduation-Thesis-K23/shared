@@ -27,25 +27,17 @@ export interface ProductListType {
   price: number;
   sale: number;
   images: string[];
-  created_at: string;
+  created_at: Date;
   slug: string;
-  sold: number;
-  rating: number;
-  isHot: boolean;
 }
 
 export interface ProductType extends ProductListType {
   description: string;
   specifications: string;
   category: string;
-  numberOfComments: number;
 }
 
-export interface FamiliarProduct
-  extends Pick<
-    ProductType,
-    "id" | "name" | "price" | "images" | "sale" | "slug"
-  > {
+export interface FamiliarProduct extends Pick<ProductType, "id" | "name" | "price" | "images" | "sale" | "slug"> {
   create_at: string;
 }
 
