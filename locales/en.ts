@@ -197,4 +197,5 @@ export default {
   "message.lookupOrder": "Lookup Order",
   "message.buyingGuide": "Buying Guide",
   "message.seekingProduct": "Seeking Product",
+  "message.startMessage": "Hello, I'm is Chainmart's bot. How can I help you?",
 };

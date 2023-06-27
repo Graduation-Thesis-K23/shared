@@ -37,7 +37,11 @@ export interface ProductType extends ProductListType {
   category: string;
 }
 
-export interface FamiliarProduct extends Pick<ProductType, "id" | "name" | "price" | "images" | "sale" | "slug"> {
+export interface FamiliarProduct
+  extends Pick<
+    ProductType,
+    "id" | "name" | "price" | "images" | "sale" | "slug"
+  > {
   create_at: string;
 }
 

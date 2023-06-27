@@ -194,4 +194,6 @@ export default {
   "message.lookupOrder": "Tra cứu đơn hàng",
   "message.buyingGuide": "Hướng dẫn mua hàng",
   "message.seekingProduct": "Tìm kiếm sản phẩm",
+  "message.startMessage":
+    "Xin chào, tôi là Chainmart Bot. Tôi có thể giúp gì cho bạn?",
 };
