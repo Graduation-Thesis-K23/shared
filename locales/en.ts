@@ -33,6 +33,8 @@ export default {
   "cart.note": "Shipping, taxes, and discounts will be calculated at checkout.",
   "cart.cartTotal": "Total",
   "cart.checkout": "Checkout",
+  "cart.notLoggedIn": "Please sign in first to see your cart",
+  "cart.empty": "Your cart is currently empty",
   // search
   "search.lookingFor": "What are you looking for?",
   // footer

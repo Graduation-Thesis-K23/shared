@@ -35,6 +35,8 @@ export default {
   "cart.note": "Phí vận chuyển, thuế và mã giảm giá được tính tại bước sau",
   "cart.cartTotal": "Tổng thanh toán",
   "cart.checkout": "Thanh toán",
+  "cart.notLoggedIn": "Vui lòng đăng nhập để xem giỏ hàng của bạn",
+  "cart.empty": "Giỏ hàng của bạn hiện đang trống",
   // search
   "search.lookingFor": "Bạn muốn tìm gì?",
   // footer
