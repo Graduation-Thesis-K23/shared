@@ -198,4 +198,21 @@ export default {
   "message.seekingProduct": "Tìm kiếm sản phẩm",
   "message.startMessage":
     "Xin chào, tôi là Chainmart Bot. Tôi có thể giúp gì cho bạn?",
+
+  // checkout
+  "checkout.deliveryAddress": "Địa chỉ giao hàng",
+  "checkout.changeAddress": "Thay đổi",
+  "checkout.selectBtn": "Chọn",
+  "checkout.saveBtn": "Lưu",
+  "checkout.addAddressBtn": "Thêm địa chỉ",
+  "checkout.ordered": "Sản phẩm",
+  "checkout.note": "Ghi chú",
+  "checkout.payment": "Phương thức thanh toán",
+  "checkout.cod": "Thanh toán khi nhận hàng",
+  "checkout.atm": "Thanh toán qua thẻ ATM",
+  "checkout.total": "Tổng tiền",
+  "checkout.shippingTotal": "Phí vận chuyển",
+  "checkout.totalPayment": "Tổng thanh toán",
+  "checkout.orderBtn": "Đặt hàng",
+  "checkout.policy": "Việc đặt hàng đồng nghĩa với việc bạn đồng ý với",
 };

@@ -200,4 +200,22 @@ export default {
   "message.buyingGuide": "Buying Guide",
   "message.seekingProduct": "Seeking Product",
   "message.startMessage": "Hello, I'm is Chainmart's bot. How can I help you?",
+
+  // checkout
+  // checkout
+  "checkout.deliveryAddress": "Delivery address",
+  "checkout.changeAddress": "Change",
+  "checkout.selectBtn": "Select",
+  "checkout.saveBtn": "Save",
+  "checkout.addAddressBtn": "Add new address",
+  "checkout.ordered": "Products Ordered",
+  "checkout.note": "Note",
+  "checkout.payment": "Payment method",
+  "checkout.cod": "Cash on delivery",
+  "checkout.atm": "ATM card",
+  "checkout.total": "Total",
+  "checkout.shippingTotal": "Shipping fee",
+  "checkout.totalPayment": "Total payment",
+  "checkout.orderBtn": "Place order",
+  "checkout.policy": "I have read and agree to the",
 };
