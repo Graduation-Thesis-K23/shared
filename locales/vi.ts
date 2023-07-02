@@ -236,6 +236,13 @@ export default {
   "purchase.orderEmpty": "Bạn chưa có đơn hàng",
   "purchase.searchOrderPlaceholder": "Nhập mã đơn hàng hoặc tên sản phẩm",
   "purchase.searchOrderEmpty": "Không tìm thấy đơn hàng phù hợp",
+  "purchase.stepsCreateAt": "Đặt hàng",
+  "purchase.stepsApprovedAt": "Xác nhận",
+  "purchase.stepsShippingAt": "Vận chuyển",
+  "purchase.stepsCompletedAt": "Nhận hàng",
+  "purchase.stepsCancelledAt": "Đã hủy",
+  "purchase.stepsReturnedAt": "Trả hàng",
+
   PROCESSING: "Đang xử lý",
   APPROVED: "Đang chuẩn bị",
   SHIPPING: "Đang giao hàng",

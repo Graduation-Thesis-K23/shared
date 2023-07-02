@@ -244,4 +244,10 @@ export default {
   COMPLETED: "Completed",
   CANCELLED: "Cancelled",
   RETURNED: "Returned",
+  "purchase.stepsCreateAt": "Order",
+  "purchase.stepsApprovedAt": "Packaging",
+  "purchase.stepsShippingAt": "Shipping",
+  "purchase.stepsCompletedAt": "Completed",
+  "purchase.stepsCancelledAt": "Cancelled",
+  "purchase.stepsReturnedAt": "Returned",
 };
