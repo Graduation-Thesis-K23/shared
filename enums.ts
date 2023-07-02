@@ -9,8 +9,10 @@ export enum Role {
 export enum OrderStatus {
   Processing = "PROCESSING",
   Approved = "APPROVED",
-  Completed = "COMPLETED",
   Shipping = "SHIPPING",
+  Completed = "COMPLETED",
+  Cancelled = "CANCELLED",
+  Returned = "RETURNED",
 }
 
 export enum Payment {

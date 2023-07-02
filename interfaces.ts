@@ -37,6 +37,12 @@ export interface ProductType extends ProductListType {
   category: string;
 }
 
+export interface OrderProductType
+  extends Omit<ProductListType, "images" | "created_at" | "slug"> {
+  quantity: number;
+  image: string;
+}
+
 export interface FamiliarProduct
   extends Pick<
     ProductType,
