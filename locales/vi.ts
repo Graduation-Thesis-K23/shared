@@ -242,6 +242,11 @@ export default {
   "purchase.stepsCompletedAt": "Nhận hàng",
   "purchase.stepsCancelledAt": "Đã hủy",
   "purchase.stepsReturnedAt": "Trả hàng",
+  "purchase.address": "Địa chỉ nhận hàng",
+  "purchase.productsPrice": "Tổng tiền hàng",
+  "purchase.shippingPrice": "Phí vận chuyển",
+  "purchase.totalPrice": "Thành tiền",
+  "purchase.paymentMethod": "Phương thức thanh toán",
 
   PROCESSING: "Đang xử lý",
   APPROVED: "Đang chuẩn bị",
@@ -249,4 +254,5 @@ export default {
   COMPLETED: "Đã giao hàng",
   CANCELLED: "Đã hủy",
   RETURNED: "Đã trả hàng",
+  CASH: "Thanh toán khi nhận hàng",
 };
