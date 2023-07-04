@@ -143,6 +143,7 @@ export default {
   "product.notSelect": "Didn't choice classify",
   // product-rating
   "product.ratingHeader": "Rating",
+  "product.numberOfComment": "comments",
   // error
   "fullName.notEmpty": "Full name is not empty.",
   "fullName.inValid": "Full name is not valid.",

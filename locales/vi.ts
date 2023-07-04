@@ -142,6 +142,7 @@ export default {
   "product.notSelect": "Bạn chưa chọn loại sản phẩm",
   // product-rating
   "product.ratingHeader": "Đánh giá sản phẩm",
+  "product.numberOfComment": "bình luận",
   // error
   "fullName.notEmpty": "Họ và tên không được để trống.",
   "fullName.inValid": "Họ và tên không chứa số và viết hoa chữ cái đầu.",
