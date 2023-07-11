@@ -84,15 +84,6 @@ export interface IProduct {
   slug: string;
 }
 
-export interface FamiliarProduct {
-  id: number;
-  name: string;
-  price: number;
-  ignorePrice: number;
-  image: string;
-  slug: string;
-}
-
 export interface IProductDetail {
   id: number;
   name: string;
