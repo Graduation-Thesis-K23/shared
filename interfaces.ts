@@ -3,6 +3,8 @@ import { ParsedUrlQuery } from "querystring";
 import { USER_ROLE } from "./constants";
 import { Role } from "./enums";
 
+export const USER_ROLE_TEST = 1;
+
 export interface CategoryType {
   id: number;
   src: string;
