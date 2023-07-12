@@ -69,7 +69,26 @@ export interface OrderType {
 
 export interface BatchType {
   id: string;
-  name: string;
+  created_at: string; 
+  batch_code: string;
+  import_quantity: number;
+  import_cost: number;
+  expiry_date: string;
+  sold: number;
+  product: {
+    name: string;
+    price: number;
+    sale: number;
+    slug: string;
+    id: string;
+    product_code: string;
+    category: string;
+  },
+  employee_create: {
+    id: string;
+    name: string;
+    phone: string;
+  }
 }
 
 export interface IProduct {
@@ -83,6 +102,7 @@ export interface IProduct {
   label?: number;
   slug: string;
 }
+
 
 export interface IProductDetail {
   id: number;
