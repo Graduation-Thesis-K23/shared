@@ -168,3 +168,15 @@ export interface Comment {
   avatar: string;
   images?: string[];
 }
+
+
+export interface PaginationMetadata { 
+  totalDocs: number;
+  limit: number;
+  totalPages: number;
+  page: number;
+}
+
+export interface PaginationResult<T>  extends PaginationMetadata { 
+  docs: T[];
+}
