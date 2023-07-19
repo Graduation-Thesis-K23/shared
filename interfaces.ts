@@ -91,6 +91,7 @@ export interface BatchType {
     name: string;
     phone: string;
   }
+  product_id: string;
 }
 
 export interface IProduct {
