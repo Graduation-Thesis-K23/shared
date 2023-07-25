@@ -108,6 +108,8 @@ export default {
   "settings.deleteButton": "Xoá",
   "settings.maintainFeature": "Tính năng đang bảo trì",
   "settings.account": "Tài khoản",
+  "settings.currentPasswordIncorrect": "Mật khẩu hiện tại không đúng",
+  "settings.changePasswordSuccess": "Thay đổi mật khẩu thành công",
 
   // login
   "login.title": "Chào bạn!",
