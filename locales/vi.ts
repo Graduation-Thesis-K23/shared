@@ -264,4 +264,6 @@ export default {
   CANCELLED: "Đã hủy",
   RETURNED: "Đã trả hàng",
   CASH: "Thanh toán khi nhận hàng",
+  "loadMore.btn": "Tải thêm",
+  "loadMore.empty": "Không còn sản phẩm nào",
 };

@@ -266,4 +266,7 @@ export default {
   CANCELLED: "Cancelled",
   RETURNED: "Returned",
   CASH: "Cash on delivery",
+  // load more
+  "loadMore.btn": "Load more",
+  "loadMore.empty": "No more products",
 };
