@@ -1,7 +1,7 @@
 import { ParsedUrlQuery } from "querystring";
 
 import { USER_ROLE } from "./constants";
-import { Role } from "./enums";
+import { OrderStatus, Role } from "./enums";
 
 // export const USER_ROLE_TEST = 1;
 
@@ -187,4 +187,28 @@ export interface DashboardColumn {
   value: number;
   pv?: number;
   amt?: number;
+}
+
+export interface OrdersType {
+  id: string;
+  name: string;
+  phone: string;
+  branchId: string;
+}
+
+interface User {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  username: string;
+}
+
+export interface OrdersRender extends OrdersType {
+  created_at: Date;
+  user: User;
+  estimated_shipped_date: Date;
+  status: OrderStatus;
+  total: number;
+  payment: string;
 }
