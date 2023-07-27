@@ -181,3 +181,10 @@ export interface PaginationMetadata {
 export interface PaginationResult<T>  extends PaginationMetadata { 
   docs: T[];
 }
+
+export interface DashboardColumn {
+  name: string;
+  value: number;
+  pv?: number;
+  amt?: number;
+}

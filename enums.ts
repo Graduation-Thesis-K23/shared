@@ -19,3 +19,11 @@ export enum Payment {
   Cash = "CASH",
   Banking = "BANKING",
 }
+
+export enum DashboardType { 
+  OrdersDaily = "orders_daily",
+  NewUser = "new_user",
+  RevenueDaily = "revenue_daily",
+  HotSelling = "hot_selling",
+}
+
