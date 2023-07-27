@@ -6,9 +6,10 @@ export enum Role {
 }
 
 export enum OrderStatus {
-  Processing = "PROCESSING",
+  Created = "CREATED",
   Approved = "APPROVED",
-  Shipping = "SHIPPING",
+  Packaged = "PACKAGED",
+  Started = "STARTED",
   Completed = "COMPLETED",
   Cancelled = "CANCELLED",
   Returned = "RETURNED",
