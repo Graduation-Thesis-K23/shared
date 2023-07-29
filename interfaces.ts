@@ -33,6 +33,8 @@ export interface ProductListType {
   images: string[];
   created_at: Date;
   slug: string;
+  star: number;
+  sold: number;
 }
 
 export interface ProductType extends ProductListType {
