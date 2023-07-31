@@ -33,6 +33,8 @@ export interface ProductListType {
   images: string[];
   created_at: Date;
   slug: string;
+  star: number;
+  sold: number;
 }
 
 export interface ProductType extends ProductListType {
@@ -72,7 +74,7 @@ export interface OrderType {
 
 export interface BatchType {
   id: string;
-  created_at: string; 
+  created_at: string;
   batch_code: string;
   import_quantity: number;
   import_cost: number;
@@ -86,12 +88,12 @@ export interface BatchType {
     id: string;
     product_code: string;
     category: string;
-  },
+  };
   employee_create: {
     id: string;
     name: string;
     phone: string;
-  }
+  };
   product_id: string;
 }
 
@@ -106,7 +108,6 @@ export interface IProduct {
   label?: number;
   slug: string;
 }
-
 
 export interface IProductDetail {
   id: number;
@@ -163,23 +164,24 @@ export interface IParams extends ParsedUrlQuery {
 
 export interface Comment {
   id: string;
-  name: string;
-  createdAt: number;
+  created_at: number;
   star: number;
-  content?: string;
-  avatar: string;
+  comment?: string;
   images?: string[];
+  user: {
+    name: string;
+    photo: string;
+  };
 }
 
-
-export interface PaginationMetadata { 
+export interface PaginationMetadata {
   totalDocs: number;
   limit: number;
   totalPages: number;
   page: number;
 }
 
-export interface PaginationResult<T>  extends PaginationMetadata { 
+export interface PaginationResult<T> extends PaginationMetadata {
   docs: T[];
 }
 
