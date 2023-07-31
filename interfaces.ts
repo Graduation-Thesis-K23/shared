@@ -74,11 +74,11 @@ export interface OrderType {
 
 export interface BatchType {
   id: string;
-  created_at: string;
+  created_at: Date;
   batch_code: string;
   import_quantity: number;
   import_cost: number;
-  expiry_date: string;
+  expiry_date: Date;
   sold: number;
   product: {
     name: string;
@@ -89,12 +89,8 @@ export interface BatchType {
     product_code: string;
     category: string;
   };
-  employee_create: {
-    id: string;
-    name: string;
-    phone: string;
-  };
   product_id: string;
+  employee_create_phone: string;
 }
 
 export interface IProduct {
