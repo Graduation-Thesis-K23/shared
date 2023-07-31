@@ -186,7 +186,7 @@ export interface PaginationResult<T> extends PaginationMetadata {
 }
 
 export interface DashboardColumn {
-  name: string;
+  label: string;
   value: number;
   pv?: number;
   amt?: number;
