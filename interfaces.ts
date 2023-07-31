@@ -62,6 +62,7 @@ export interface EmployeeType {
   phone: string;
   createAt: string;
   isActive: boolean;
+  role: string;
 }
 
 export interface OrderType {
