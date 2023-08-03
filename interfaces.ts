@@ -46,7 +46,7 @@ export interface ProductType extends ProductListType {
 export interface OrderProductType
   extends Omit<ProductListType, "images" | "created_at" | "slug"> {
   quantity: number;
-  image: string;
+  product_id: string;
 }
 
 export interface FamiliarProduct
