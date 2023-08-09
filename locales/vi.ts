@@ -273,6 +273,7 @@ export default {
   CANCELLED: "Đã hủy",
   RETURNED: "Đã trả hàng",
   CASH: "Thanh toán khi nhận hàng",
+  BANKING: "Thanh toán qua thẻ ATM",
   "loadMore.btn": "Tải thêm",
   "loadMore.empty": "Không còn sản phẩm nào",
 };
