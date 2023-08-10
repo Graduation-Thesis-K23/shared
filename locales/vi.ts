@@ -192,7 +192,7 @@ export default {
   "search.apply": "Áp dụng",
   "search.sortBy": "Sắp xếp theo",
   "search.latest": "Mới nhất",
-  "search.topSales": "Bán chạy",
+  "search.topSales": "Khuyễn mãi",
   "search.price": "Giá",
   "search.priceLowToHigh": "Giá: thấp đến cao",
   "search.priceHighToLow": "Giá: cao đến thấp",
