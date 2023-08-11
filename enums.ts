@@ -20,6 +20,13 @@ export enum Payment {
   Banking = 'BANKING',
 }
 
+export enum PaymentStatus {
+  Unpaid = 'UNPAID',
+  Processing = 'PROCESSING',
+  Paid = 'PAID',
+  Failed = 'FAILED',
+}
+
 export enum DashboardType {
   OrdersDaily = 'orders_daily',
   NewUser = 'new_user',
