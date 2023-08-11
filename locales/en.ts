@@ -223,6 +223,12 @@ export default {
   "checkout.totalPayment": "Total payment",
   "checkout.orderBtn": "Place order",
   "checkout.policy": "I have read and agree to the",
+  "checkout.cashDescription": "You choose to pay the bill when receiving order",
+
+  // momo
+  "momo.scanToPay": "Scan to pay",
+  "momo.remain": "Remain time",
+
   // purchase
   "purchase.title": "My Purchase",
   "purchase.all": "All",
@@ -278,4 +284,8 @@ export default {
   // load more
   "loadMore.btn": "Load more",
   "loadMore.empty": "No more products",
+
+  "payment.success": "You just made payment successfully",
+  
+  "or": "or"
 };

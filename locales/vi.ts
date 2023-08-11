@@ -220,6 +220,11 @@ export default {
   "checkout.totalPayment": "Tổng thanh toán",
   "checkout.orderBtn": "Đặt hàng",
   "checkout.policy": "Việc đặt hàng đồng nghĩa với việc bạn đồng ý với",
+  "checkout.cashDescription": "Bạn sẽ thanh toán hoá đơn ngay khi nhận hàng",
+
+  // momo
+  "momo.scanToPay": "Scan để thanh toán",
+  "momo.remain": "Thời gian còn lại",
 
   // purchase
   "purchase.title": "Đơn hàng của tôi",
@@ -275,4 +280,9 @@ export default {
   CASH: "Thanh toán khi nhận hàng",
   "loadMore.btn": "Tải thêm",
   "loadMore.empty": "Không còn sản phẩm nào",
+
+
+  "payment.success": "Bạn vừa thực hiện thanh toán thành công",
+
+  "or": "hoặc"
 };
