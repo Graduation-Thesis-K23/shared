@@ -145,6 +145,7 @@ export default {
   "product.description": "Description",
   "product.familiar": "Product Familiar",
   "product.notSelect": "Didn't choice classify",
+  "product.outOfStock": "Out of stock",
   // product-rating
   "product.ratingHeader": "Rating",
   "product.numberOfComment": "comments",

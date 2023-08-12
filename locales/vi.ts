@@ -147,6 +147,7 @@ export default {
   // product-rating
   "product.ratingHeader": "Đánh giá sản phẩm",
   "product.numberOfComment": "bình luận",
+  "product.outOfStock": "Đã hết hàng",
   // error
   "fullName.notEmpty": "Họ và tên không được để trống.",
   "fullName.inValid": "Họ và tên không chứa số và viết hoa chữ cái đầu.",
