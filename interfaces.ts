@@ -41,6 +41,7 @@ export interface ProductType extends ProductListType {
   description: string;
   specifications: string;
   category: string;
+  availableQuantity?: number;
 }
 
 export interface OrderProductType
