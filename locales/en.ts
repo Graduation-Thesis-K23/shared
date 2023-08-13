@@ -208,7 +208,7 @@ export default {
   "message.startMessage": "Hello, I'm is Chainmart's bot. How can I help you?",
 
   // checkout
-  // checkout
+  checkout: "Checkout",
   "checkout.deliveryAddress": "Delivery address",
   "checkout.changeAddress": "Change",
   "checkout.selectBtn": "Select",
@@ -229,6 +229,10 @@ export default {
   // momo
   "momo.scanToPay": "Scan to pay",
   "momo.remain": "Remain time",
+  "momo.or": "Or access",
+  "momo.success": "Congrats, You have placed order successfully",
+  "momo.failed": "Sorry, Your order has been failed",
+  "momo.return": "View your orders",
 
   // purchase
   "purchase.title": "My Purchase",
@@ -282,12 +286,10 @@ export default {
   CANCELLED: "Cancelled",
   RETURNED: "Returned",
   CASH: "Cash on delivery",
-  "BANKING": "ATM card",
+  BANKING: "ATM card",
   // load more
   "loadMore.btn": "Load more",
   "loadMore.empty": "No more products",
 
   "payment.success": "You just made payment successfully",
-  
-  "or": "or"
 };

@@ -1,6 +1,6 @@
 export default {
   title: "Việt Nam",
-  home: "Trang chủ",
+  home: "Quay về trang chủ",
   cart: "Giỏ hàng",
   "404": "Trang bạn đang tìm không tồn tại.",
   yes: "Có",
@@ -206,6 +206,7 @@ export default {
     "Xin chào, tôi là Chainmart Bot. Tôi có thể giúp gì cho bạn?",
 
   // checkout
+  checkout: "Thanh toán",
   "checkout.deliveryAddress": "Địa chỉ giao hàng",
   "checkout.changeAddress": "Thay đổi",
   "checkout.selectBtn": "Chọn",
@@ -215,7 +216,7 @@ export default {
   "checkout.note": "Ghi chú",
   "checkout.payment": "Phương thức thanh toán",
   "checkout.cod": "Thanh toán khi nhận hàng",
-  "checkout.atm": "Thanh toán qua thẻ ATM",
+  "checkout.atm": "Thanh toán qua MoMo",
   "checkout.total": "Tổng tiền",
   "checkout.shippingTotal": "Phí vận chuyển",
   "checkout.totalPayment": "Tổng thanh toán",
@@ -226,6 +227,10 @@ export default {
   // momo
   "momo.scanToPay": "Scan để thanh toán",
   "momo.remain": "Thời gian còn lại",
+  "momo.or": "Hoặc truy cập",
+  "momo.success": "Chúc mừng, bạn đã đặt hàng thành công",
+  "momo.failed": "Rất tiếc, đơn hàng của bạn không thành công",
+  "momo.return": "Xem đơn hàng của bạn",
 
   // purchase
   "purchase.title": "Đơn hàng của tôi",
@@ -279,12 +284,9 @@ export default {
   CANCELLED: "Đã hủy",
   RETURNED: "Đã trả hàng",
   CASH: "Thanh toán khi nhận hàng",
-  BANKING: "Thanh toán qua thẻ ATM",
+  BANKING: "Thanh toán qua MoMo",
   "loadMore.btn": "Tải thêm",
   "loadMore.empty": "Không còn sản phẩm nào",
 
-
   "payment.success": "Bạn vừa thực hiện thanh toán thành công",
-
-  "or": "hoặc"
 };
