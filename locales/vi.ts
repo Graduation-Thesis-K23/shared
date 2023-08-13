@@ -250,7 +250,7 @@ export default {
   "purchase.returnedBtn": "Trả hàng",
   "purchase.returnEmpty": "Bạn không có yêu cầu Trả hàng",
   "purchase.orderEmpty": "Bạn chưa có đơn hàng",
-  "purchase.searchOrderPlaceholder": "Nhập mã đơn hàng hoặc tên sản phẩm",
+  "purchase.searchOrderPlaceholder": "Nhập mã đơn hàng, tên sản phẩm hoặc số điện thoại người nhận",
   "purchase.searchOrderEmpty": "Không tìm thấy đơn hàng phù hợp",
   "purchase.stepsCreateAt": "Đặt hàng",
   "purchase.stepsApprovedAt": "Xác nhận",

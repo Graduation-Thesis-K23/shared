@@ -253,7 +253,7 @@ export default {
   "purchase.returnedBtn": "Return Order",
   "purchase.returnEmpty": "You have not returned any orders",
   "purchase.orderEmpty": "You have not placed any orders",
-  "purchase.searchOrderPlaceholder": "Enter order ID or product name to search",
+  "purchase.searchOrderPlaceholder": "Enter order ID, product name to search or recipient phone number",
   "purchase.searchOrderEmpty": "No orders found",
   "purchase.stepsCreateAt": "Order",
   "purchase.stepsApprovedAt": "Packaging",
