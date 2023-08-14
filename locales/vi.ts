@@ -276,7 +276,7 @@ export default {
   "purchase.closeBtn": "Trở lại",
   "purchase.commentBtn": "Hoàn thành",
   "purchase.cancelOrderText": "Bạn có chắc chắn muốn huỷ đơn hàng này?",
-  CREATED: "Đặt hàng thành công",
+  CREATED: "Đã tạo",
   APPROVED: "Đã xác nhận",
   PACKAGED: "Đóng gói thành công",
   STARTED: "Bắt đầu giao hàng",
