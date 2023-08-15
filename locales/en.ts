@@ -1,3 +1,5 @@
+import { PaymentStatus } from "../enums";
+
 export default {
   title: "English",
   home: "Back Home",
@@ -218,7 +220,7 @@ export default {
   "checkout.note": "Note",
   "checkout.payment": "Payment method",
   "checkout.cod": "Cash on delivery",
-  "checkout.atm": "ATM card",
+  "checkout.atm": "MoMo",
   "checkout.total": "Total",
   "checkout.shippingTotal": "Shipping fee",
   "checkout.totalPayment": "Total payment",
@@ -248,14 +250,17 @@ export default {
   "purchase.orderId": "Order ID",
   "purchase.shippingBtn": "Received Order",
   "purchase.cancelBtn": "Cancel Order",
+  "purchase.payBtn": "Pay now",
   "purchase.deliveredBtn": "Comment",
   "purchase.cancelledBtn": "Cancel Order",
   "purchase.returnedBtn": "Return Order",
   "purchase.returnEmpty": "You have not returned any orders",
   "purchase.orderEmpty": "You have not placed any orders",
-  "purchase.searchOrderPlaceholder": "Enter order ID, product name to search or recipient phone number",
+  "purchase.searchOrderPlaceholder":
+    "Enter order ID, product name to search or recipient phone number",
   "purchase.searchOrderEmpty": "No orders found",
   "purchase.stepsCreateAt": "Order",
+  "purchase.stepsPay": "Pay",
   "purchase.stepsApprovedAt": "Packaging",
   "purchase.stepsShippingAt": "Shipping",
   "purchase.stepsCompletedAt": "Completed",
@@ -278,6 +283,9 @@ export default {
   "purchase.closeBtn": "Cancel",
   "purchase.commentBtn": "Submit",
   "purchase.cancelOrderText": "Are you sure you want to cancel this order?",
+  "purchase.orderStatus": "Order status",
+  "purchase.paymentStatus": "Payment status",
+
   CREATED: "Created",
   APPROVED: "Approved",
   PACKAGED: "Packaged",
@@ -285,8 +293,15 @@ export default {
   COMPLETED: "Completed",
   CANCELLED: "Cancelled",
   RETURNED: "Returned",
+
   CASH: "Cash on delivery",
-  BANKING: "ATM card",
+  BANKING: "MoMo",
+
+  [PaymentStatus.Unpaid]: "Unpaid",
+  [PaymentStatus.Paid]: "Paid",
+  [PaymentStatus.Processing]: "Processing",
+  [PaymentStatus.Failed]: "Failed",
+
   // load more
   "loadMore.btn": "Load more",
   "loadMore.empty": "No more products",

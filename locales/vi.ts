@@ -1,3 +1,5 @@
+import { PaymentStatus } from "../enums";
+
 export default {
   title: "Việt Nam",
   home: "Quay về trang chủ",
@@ -245,6 +247,7 @@ export default {
   "purchase.orderId": "Mã đơn hàng",
   "purchase.shippingBtn": "Đã nhận được hàng",
   "purchase.cancelBtn": "Huỷ đơn hàng",
+  "purchase.payBtn": "Thanh toán ngay",
   "purchase.deliveredBtn": "Đánh giá",
   "purchase.cancelledBtn": "Mua lại",
   "purchase.returnedBtn": "Trả hàng",
@@ -253,6 +256,7 @@ export default {
   "purchase.searchOrderPlaceholder": "Nhập mã đơn hàng, tên sản phẩm hoặc số điện thoại người nhận",
   "purchase.searchOrderEmpty": "Không tìm thấy đơn hàng phù hợp",
   "purchase.stepsCreateAt": "Đặt hàng",
+  "purchase.stepsPay": "Thanh toán",
   "purchase.stepsApprovedAt": "Xác nhận",
   "purchase.stepsShippingAt": "Vận chuyển",
   "purchase.stepsCompletedAt": "Nhận hàng",
@@ -276,6 +280,9 @@ export default {
   "purchase.closeBtn": "Trở lại",
   "purchase.commentBtn": "Hoàn thành",
   "purchase.cancelOrderText": "Bạn có chắc chắn muốn huỷ đơn hàng này?",
+  "purchase.orderStatus": "Trạng thái đơn hàng",
+  "purchase.paymentStatus": "Trạng thái thanh toán",
+
   CREATED: "Đã tạo",
   APPROVED: "Đã xác nhận",
   PACKAGED: "Đóng gói thành công",
@@ -283,8 +290,15 @@ export default {
   COMPLETED: "Đã giao hàng",
   CANCELLED: "Đã hủy",
   RETURNED: "Đã trả hàng",
+
   CASH: "Thanh toán khi nhận hàng",
   BANKING: "Thanh toán qua MoMo",
+
+  [PaymentStatus.Unpaid]: "Chưa thanh toán",
+  [PaymentStatus.Paid]: "Đã thanh toán",
+  [PaymentStatus.Processing]: "Đang xử lý",
+  [PaymentStatus.Failed]: "Không thành công",
+
   "loadMore.btn": "Tải thêm",
   "loadMore.empty": "Không còn sản phẩm nào",
 
