@@ -220,7 +220,8 @@ export default {
   "checkout.note": "Note",
   "checkout.payment": "Payment method",
   "checkout.cod": "Cash on delivery",
-  "checkout.atm": "MoMo",
+  "checkout.atm": "Payment in advance",
+  "checkout.qr": "Pay with QR code",
   "checkout.total": "Total",
   "checkout.shippingTotal": "Shipping fee",
   "checkout.totalPayment": "Total payment",
@@ -295,7 +296,7 @@ export default {
   RETURNED: "Returned",
 
   CASH: "Cash on delivery",
-  BANKING: "MoMo",
+  BANKING: "Payment in advance",
 
   [PaymentStatus.Unpaid]: "Unpaid",
   [PaymentStatus.Paid]: "Paid",

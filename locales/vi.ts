@@ -218,7 +218,8 @@ export default {
   "checkout.note": "Ghi chú",
   "checkout.payment": "Phương thức thanh toán",
   "checkout.cod": "Thanh toán khi nhận hàng",
-  "checkout.atm": "Thanh toán qua MoMo",
+  "checkout.atm": "Thanh toán trả trước",
+  "checkout.qr": "Thanh toán với mã QR",
   "checkout.total": "Tổng tiền",
   "checkout.shippingTotal": "Phí vận chuyển",
   "checkout.totalPayment": "Tổng thanh toán",
@@ -292,7 +293,7 @@ export default {
   RETURNED: "Đã trả hàng",
 
   CASH: "Thanh toán khi nhận hàng",
-  BANKING: "Thanh toán qua MoMo",
+  BANKING: "Thanh toán trả trước",
 
   [PaymentStatus.Unpaid]: "Chưa thanh toán",
   [PaymentStatus.Paid]: "Đã thanh toán",
