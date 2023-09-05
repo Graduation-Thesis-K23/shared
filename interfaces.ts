@@ -23,6 +23,7 @@ export interface EmployeePayload {
   phone: string;
   name: string;
   role: Role;
+  branch: string;
 }
 
 export interface ProductListType {
